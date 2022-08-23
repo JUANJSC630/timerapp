@@ -1,0 +1,69 @@
+body {
+    background-color: #ffffff;
+    font-family: Century Gothic
+}
+
+.flex {
+    display: flex;
+    height: 500px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(175, 106, 106, 0.434);
+    margin: 22px;
+
+}
+
+.reloj {
+    padding: 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background: linear-gradient(315deg, #ffffff, #e6e6e6);
+    box-shadow: -10px -10px 42px #9e9e9e,
+        10px 10px 42px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.reloj img {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    transition: all 0.5s
+    
+}
+
+.circle {
+    position: fixed;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    -webkit-box-shadow: 0px 0px 28px 5px #9E9E9E; 
+box-shadow: 0px 0px 28px 5px #9E9E9E;
+}
+
+.circle-2 {
+    position: fixed;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    background: #ffffff;
+    box-shadow: inset 10px -10px 42px #9e9e9e,
+        inset -10px 10px 42px #ffffff;
+}
+
+.reloj .minutos {
+    position: absolute;
+}
+
+.reloj .segundos {
+    position: absolute;
+}
+
+.reloj .barras {
+    position: absolute;
+    height: 440px;
+    width: 440px;
+
+}
