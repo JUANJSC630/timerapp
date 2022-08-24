@@ -1,29 +1,32 @@
 import { Chronometer } from "./Chronometer"
 import { Clock } from "./Clock"
 import { Clockdigital } from "./Clockdigital"
+import { Foother } from "./Foother"
 import { Timer } from "./Timer"
 
 export const Home = () => {
 
     return (
         <>
-            <section id="#" className="Container-clock">
-                <Clock/>
-            </section>
+            <div className="Container-all">
+                <section id="#" >
+                    <Clock />
+                </section>
 
-            <section id="Clock-digital" className="Container-digital">
-                <Clockdigital/>
-            </section>
+                <section id="Clock-digital" >
+                    <Clockdigital />
+                </section>
 
-            <section id="Chronometer" className="Container-Chronometer">
-                <Chronometer/>
-            </section>
+                <section id="Chronometer" >
+                    <Chronometer />
+                </section>
 
-            <section id="Timer" className="Container-Timer">
-                <Timer/>
-            </section>
-
+                <section id="Timer" >
+                    <Timer />
+                </section>
+                <Foother/>
+            </div>
             
-            </>
+        </>
     )
 }

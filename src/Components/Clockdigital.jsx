@@ -1,3 +1,4 @@
+import { Foother } from "./Foother";
 
 
 export const Clockdigital = () => {
@@ -20,6 +21,7 @@ export const Clockdigital = () => {
                     <p className="date">{day}-{month}-{year}  {week[time.getDay()]}</p>
                     <p className="time">{hour}:{minutes}:{seconds}</p>
                 </div>
+                <Foother/>
             </div>
         </>
     )

@@ -30,7 +30,7 @@ export const Clock = () => {
 
     return (
         <>
-
+            
             <div className="Container-reloj">
                 <div className="reloj">
                     {/* <span className="circle-2"></span> */}

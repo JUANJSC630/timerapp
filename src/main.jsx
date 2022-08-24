@@ -29,7 +29,6 @@ const interval = ()  => {
   const element = (
     <React.StrictMode>
       <Home/>
-      <Foother/>
     </React.StrictMode>
   );
   root.render(element);
