@@ -38,10 +38,10 @@ export const Clock = () => {
                 <div className="reloj">
                     {/* <span className="circle-2"></span> */}
                     <span className="circle"></span>
-                    <img src="/src/aguja.png" className="hours" style={h} />
-                    <img src="/src/agujaMinutos.png" className="minutes" style={m} />
-                    <img src="/src/agujaSegundos.png" className="seconds" style={s} />
-                    <img src="/src/giro.png" className="barras" />
+                    <img src="/src/images/aguja.png" className="hours" style={h} />
+                    <img src="/src/images/agujaMinutos.png" className="minutes" style={m} />
+                    <img src="/src/images/agujaSegundos.png" className="seconds" style={s} />
+                    <img src="/src/images/giro.png" className="barras" />
                 </div>
 
             </div>
