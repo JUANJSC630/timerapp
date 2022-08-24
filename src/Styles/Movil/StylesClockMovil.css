@@ -1,57 +1,40 @@
 @media (max-width: 700px){
     
-.Container-reloj {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .reloj {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        background: linear-gradient(315deg, #ffffff, #e6e6e6);
+        box-shadow: -10px -10px 42px #9e9e9e,
+            10px 10px 42px #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .reloj div {
+        position: relative;
+        height: 200px;
+        width: 200px;
+        transition: all 1s
+    
+    }
+    
+    .circle {
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        -webkit-box-shadow: 0px 0px 28px 5px #ff0303;
+        box-shadow: 0px 0px 28px 5px #9E9E9E;
+    }
+    
 
-.reloj {
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    background: linear-gradient(315deg, #ffffff, #e6e6e6);
-    box-shadow: -10px -10px 42px #9e9e9e,
-        10px 10px 42px #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.reloj img {
-    position: relative;
-    height: 150px;
-    width: 150px;
-    /* transition: all 1s */
-
-}
-
-.circle {
-    height: 110px;
-    width: 110px;
-    border-radius: 100%;
-    -webkit-box-shadow: 0px 0px 28px 5px #ff0303;
-    box-shadow: 0px 0px 28px 5px #9E9E9E;
-}
-
-.reloj .hours {
-    position: absolute;
-}
-.reloj .minutes {
-    position: absolute;
-}
-
-.reloj .seconds {
-    position: absolute;
-}
-
-.reloj .barras {
-    position: absolute;
-    width: 290px;
-    height: 290px;
-
-}
+    
+    .reloj .barras {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+    }
+    
 
 }
