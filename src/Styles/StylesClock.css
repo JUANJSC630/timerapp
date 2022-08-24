@@ -22,7 +22,7 @@ body{
     align-items: center;
 }
 
-.reloj img {
+.reloj div {
     position: relative;
     height: 250px;
     width: 250px;
@@ -40,18 +40,26 @@ body{
 
 .reloj .hours {
     position: absolute;
+    background-image: url('../Images/aguja.png');
+    background-size: cover;
 }
 .reloj .minutes {
     position: absolute;
+    background-image: url('../Images/agujaMinutos.png');
+    background-size: cover;
 }
 
 .reloj .seconds {
     position: absolute;
+    background-image: url('../Images/agujaSegundos.png');
+    background-size: cover;
 }
 
 .reloj .barras {
     position: absolute;
     height: 440px;
     width: 440px;
-
+    background-image: url('../Images/giro.png');
+    background-size: cover;
+    background-position: center;
 }

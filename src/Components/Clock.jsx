@@ -27,7 +27,7 @@ export const Clock = () => {
     const s = {
         transform: `rotate(${percentageSegundos}deg)`
     };
-    console.log(seconds);
+
     return (
         <>
 
@@ -35,10 +35,10 @@ export const Clock = () => {
                 <div className="reloj">
                     {/* <span className="circle-2"></span> */}
                     <span className="circle"></span>
-                    <img src="./src/images/aguja.png" className="hours" style={h} />
-                    <img src="./src/images/agujaMinutos.png" className="minutes" style={m} />
-                    <img src="./src/images/agujaSegundos.png" className="seconds" style={s} />
-                    <img src="./src/images/giro.png" className="barras" />
+                    <div className="hours" style={h}></div>
+                    <div src="./src/images/agujaMinutos.png" className="minutes" style={m}></div>
+                    <div src="./src/images/agujaSegundos.png" className="seconds" style={s} ></div>
+                    <div src="./src/images/giro.png" className="barras" ></div>
                 </div>
 
             </div>
