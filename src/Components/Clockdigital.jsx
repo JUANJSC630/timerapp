@@ -15,7 +15,7 @@ export const Clockdigital = () => {
 
     return (
         <>
-            <div className="flex-digital">
+            <div className="Container-clock-digital">
                 <div className="ClockDigital">
                     <p className="date">{day}-{month}-{year}  {week[time.getDay()]}</p>
                     <p className="time">{hour}:{minutes}:{seconds}</p>

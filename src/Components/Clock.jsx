@@ -34,7 +34,7 @@ export const Clock = () => {
     return (
         <>
 
-            <div className="flex">
+            <div className="Container-reloj">
                 <div className="reloj">
                     {/* <span className="circle-2"></span> */}
                     <span className="circle"></span>

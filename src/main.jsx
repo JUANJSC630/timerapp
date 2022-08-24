@@ -6,11 +6,15 @@ import { Foother } from './Components/Foother';
 // import { tick } from './Components/Interval'
 import './Styles/StylesClock.css'
 import './Styles/StylesClockdigital.css'
+import './Styles/StylesChronometer.css'
+import './Styles/StylesTimer.css'
 import './Styles/StylesFoother.css'
 import './Styles/StylesHome.css'
 import './Styles/Movil/StylesFootherMovil.css'
 import './Styles/Movil/StylesClockMovil.css'
 import './Styles/Movil/StylesClockdigitalMovil.css'
+import './Styles/Movil/StylesChronometerMovil.css'
+import './Styles/Movil/StylesTimerMovil.css'
 
 // ReactDOM.createRoot(document.getElementById('root')).render(
 //   <React.StrictMode>
@@ -25,6 +29,7 @@ const interval = ()  => {
   const element = (
     <React.StrictMode>
       <Home/>
+      <Foother/>
     </React.StrictMode>
   );
   root.render(element);
