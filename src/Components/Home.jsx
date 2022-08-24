@@ -9,7 +9,7 @@ export const Home = () => {
     return (
         <>
             <div className="Container-all">
-                <section id="#" >
+                <section id="home" >
                     <Clock />
                 </section>
 
