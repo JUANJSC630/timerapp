@@ -1,0 +1,20 @@
+@media (max-width: 700px){
+    .Container-foother ul li a{
+        position: relative;
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color:rgba(255, 255, 255, 0.719);
+        text-align: center;
+        transition: .6s;
+        box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+    }
+    .Container-foother ul li .fab{
+        font-size: 20px;
+        line-height: 40px;
+        transition: .3s;
+        color: #000;
+    }
+}
+

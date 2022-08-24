@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.flex-digital{
+    height: 100vh;
+    width: 100vw;
+    background: #0f3854;
+    background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+    box-shadow: -10px -10px 42px #9e9e9e,
+        10px 10px 42px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ClockDigital{
+    width: 500px;
+    height: 200px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.time{
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+    font-size:6rem;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.2em;
+}
+.date{
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+    font-size:2rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
