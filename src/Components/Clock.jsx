@@ -8,14 +8,11 @@ export const Clock = () => {
     const hours = time.getHours();
     const minutes = time.getMinutes();
     const seconds = time.getSeconds();
-    let percentageHours;
+    let percentageHours = hours / 12 * 360;
 
     if (hours <= 12) {
-        percentageHours = hours / 12 * 360;
-    } else if ((hours >= 12)) {
         percentageHours = hours / 24 * 360;
     }
-
     percentageHours += minutes / 60 * 30;
     let percentageMinutes = minutes / 60 * 360;
     let percentageSegundos = seconds / 60 * 360;
@@ -38,10 +35,10 @@ export const Clock = () => {
                 <div className="reloj">
                     {/* <span className="circle-2"></span> */}
                     <span className="circle"></span>
-                    <img src="/src/images/aguja.png" className="hours" style={h} />
-                    <img src="/src/images/agujaMinutos.png" className="minutes" style={m} />
-                    <img src="/src/images/agujaSegundos.png" className="seconds" style={s} />
-                    <img src="/src/images/giro.png" className="barras" />
+                    <img src="./src/images/aguja.png" className="hours" style={h} />
+                    <img src="./src/images/agujaMinutos.png" className="minutes" style={m} />
+                    <img src="./src/images/agujaSegundos.png" className="seconds" style={s} />
+                    <img src="./src/images/giro.png" className="barras" />
                 </div>
 
             </div>
