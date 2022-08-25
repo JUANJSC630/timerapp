@@ -8,12 +8,11 @@ export const Clock = () => {
     const hours = time.getHours();
     const minutes = time.getMinutes();
     const seconds = time.getSeconds();
-    let percentageHours = hours / 12 * 360;
+    let percentageHours;
+    let percentageHours1 = (hours <= 12) ? percentageHours = hours / 12 * 360 :  percentageHours = hours / 12 * 360;
 
-    if (hours <= 12) {
-        percentageHours = hours / 24 * 360;
-    }
-    percentageHours += minutes / 60 * 30;
+    
+    percentageHours1 += minutes / 60 * 30;
     let percentageMinutes = minutes / 60 * 360;
     let percentageSegundos = seconds / 60 * 360;
 
